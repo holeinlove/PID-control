@@ -1,0 +1,8 @@
+{
+  "algorithm": "SHA-256",
+  "date": "2026-10-13",
+  "main": "PID control Cart-Pole.html",
+  "entry": "index.html",
+  "sameBytes": true,
+  "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c"
+}

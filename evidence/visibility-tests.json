@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-13",
+  "id": "A19",
+  "browser": "155.0.8059.40",
+  "method": "Actual background tab with noDefaults CDP connection; no visibility property mocking",
+  "before": {
+    "hidden": true,
+    "t": 0.04583333333333333,
+    "left": false,
+    "right": false,
+    "raf": 1
+  },
+  "during": {
+    "hidden": true,
+    "t": 0.04583333333333333,
+    "left": false,
+    "right": false
+  },
+  "after": {
+    "hidden": false,
+    "t": 0.1791666666666668,
+    "left": false,
+    "right": false,
+    "raf": 1
+  },
+  "status": "PASS"
+}

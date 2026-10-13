@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-13",
+  "browser": "Chrome 155.0.8059.40",
+  "offline": true,
+  "errors": [],
+  "networkRequests": [],
+  "results": [
+    {
+      "id": "A08",
+      "name": "record real V=3 start / release / reverse sequence",
+      "status": "PASS",
+      "result": {
+        "maxV": 2.578914119042064,
+        "frames": 45,
+        "note": "Real rendered frames and DOM keyboard input. Timing is recorded in measurement timestamps; no prerecorded simulation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-13",
+  "id": "A23",
+  "status": "PASS",
+  "browser": "155.0.8059.40",
+  "offline": true,
+  "elapsedWallMs": 310363,
+  "maxSamples": 360,
+  "errors": [],
+  "networkRequests": [],
+  "checks": [
+    {
+      "t": 9.916666666666424,
+      "phase": "pid",
+      "restarts": 0,
+      "samples": 298,
+      "raf": 1,
+      "frames": 1781,
+      "heap": 10000000,
+      "elapsedWallMs": 10008
+    },
+    {
+      "t": 19.929166666665857,
+      "phase": "pid",
+      "restarts": 0,
+      "samples": 360,
+      "raf": 1,
+      "frames": 3584,
+      "heap": 10000000,
+      "elapsedWallMs": 20016
+    },
+    {
+      "t": 29.933333333331955,
+      "phase": "pid",
+      "restarts": 0,
+      "samples": 360,
+      "raf": 1,
+      "frames": 5386,
+      "heap": 10000000,
+      "elapsedWallMs": 30022
+    },
+    {
+      "t": 39.94583333333816,
+      "phase": "pid",
+      "restarts": 0,
+      "samples": 360,
+      "raf": 1,
+      "frames": 7189,
+      "heap": 10000000,
+      "elapsedWallMs": 40038
+    },
+    {
+      "t": 49.954166666679455,
+      "phase": "pid",
+      "restarts": 0,
+      "samples": 360,
+      "raf": 1,
+      "frames": 8991,
+      "heap": 10000000,
+      "elapsedWallMs": 50040
+    },
+    {
+      "t": 0.09583333333333333,
+      "phase": "swing",
+      "restarts": 1,
+      "samples": 3,
+      "raf": 1,
+      "frames": 10792,
+      "heap": 10000000,
+      "elapsedWallMs": 60042
+    },
+    {
+      "t": 10.008333333333086,
+      "phase": "pid",
+      "restarts": 1,
+      "samples": 301,
+      "raf": 1,
+      "frames": 12567,
+      "heap": 10000000,
+      "elapsedWallMs": 70048
+    },
+    {
+      "t": 20.016666666665852,
+      "phase": "pid",
+      "restarts": 1,
+      "samples": 360,
+      "raf": 1,
+      "frames": 14341,
+      "heap": 10000000,
+      "elapsedWallMs": 80056
+    },
+    {
+      "t": 30.02083333333195,
+      "phase": "pid",
+      "restarts": 1,
+      "samples": 360,
+      "raf": 1,
+      "frames": 16120,
+      "heap": 10000000,
+      "elapsedWallMs": 90061
+    },
+    {
+      "t": 39.94583333333816,
+      "phase": "pid",
+      "restarts": 1,
+      "samples": 360,
+      "raf": 1,
+      "frames": 17877,
+      "heap": 10000000,
+      "elapsedWallMs": 100067
+    },
+    {
+      "t": 49.945833333346116,
+      "phase": "pid",
+      "restarts": 1,
+      "samples": 360,
+      "raf": 1,
+      "frames": 19657,
+      "heap": 10000000,
+      "elapsedWallMs": 110069
+    },
+    {
+      "t": 0.020833333333333332,
+      "phase": "swing",
+      "restarts": 2,
+      "samples": 1,
+      "raf": 1,
+      "frames": 21402,
+      "heap": 10000000,
+      "elapsedWallMs": 120085
+    },
+    {
+      "t": 10.024999999999752,
+      "phase": "pid",
+      "restarts": 2,
+      "samples": 301,
+      "raf": 1,
+      "frames": 23188,
+      "heap": 10000000,
+      "elapsedWallMs": 130091
+    },
+    {
+      "t": 19.93749999999919,
+      "phase": "pid",
+      "restarts": 2,
+      "samples": 360,
+      "raf": 1,
+      "frames": 24941,
+      "heap": 10000000,
+      "elapsedWallMs": 140093
+    },
+    {
+      "t": 29.945833333331954,
+      "phase": "pid",
+      "restarts": 2,
+      "samples": 360,
+      "raf": 1,
+      "frames": 26727,
+      "heap": 10000000,
+      "elapsedWallMs": 150103
+    },
+    {
+      "t": 39.95000000000483,
+      "phase": "pid",
+      "restarts": 2,
+      "samples": 360,
+      "raf": 1,
+      "frames": 28512,
+      "heap": 10000000,
+      "elapsedWallMs": 160105
+    },
+    {
+      "t": 49.954166666679455,
+      "phase": "pid",
+      "restarts": 2,
+      "samples": 360,
+      "raf": 1,
+      "frames": 30277,
+      "heap": 10000000,
+      "elapsedWallMs": 170107
+    },
+    {
+      "t": 0.10833333333333332,
+      "phase": "swing",
+      "restarts": 3,
+      "samples": 4,
+      "raf": 1,
+      "frames": 32041,
+      "heap": 10000000,
+      "elapsedWallMs": 180120
+    },
+    {
+      "t": 10.116666666666413,
+      "phase": "pid",
+      "restarts": 3,
+      "samples": 304,
+      "raf": 1,
+      "frames": 33811,
+      "heap": 10000000,
+      "elapsedWallMs": 190125
+    },
+    {
+      "t": 20.129166666665846,
+      "phase": "pid",
+      "restarts": 3,
+      "samples": 360,
+      "raf": 1,
+      "frames": 35555,
+      "heap": 10000000,
+      "elapsedWallMs": 200135
+    },
+    {
+      "t": 30.133333333331944,
+      "phase": "pid",
+      "restarts": 3,
+      "samples": 360,
+      "raf": 1,
+      "frames": 37313,
+      "heap": 10000000,
+      "elapsedWallMs": 210147
+    },
+    {
+      "t": 40.15000000000499,
+      "phase": "pid",
+      "restarts": 3,
+      "samples": 360,
+      "raf": 1,
+      "frames": 39085,
+      "heap": 10000000,
+      "elapsedWallMs": 220162
+    },
+    {
+      "t": 50.162500000012955,
+      "phase": "pid",
+      "restarts": 3,
+      "samples": 360,
+      "raf": 1,
+      "frames": 40862,
+      "heap": 10000000,
+      "elapsedWallMs": 230172
+    },
+    {
+      "t": 0.30833333333333346,
+      "phase": "swing",
+      "restarts": 4,
+      "samples": 10,
+      "raf": 1,
+      "frames": 42634,
+      "heap": 10000000,
+      "elapsedWallMs": 240175
+    },
+    {
+      "t": 10.316666666666402,
+      "phase": "pid",
+      "restarts": 4,
+      "samples": 310,
+      "raf": 1,
+      "frames": 44398,
+      "heap": 10000000,
+      "elapsedWallMs": 250180
+    },
+    {
+      "t": 20.3333333333325,
+      "phase": "pid",
+      "restarts": 4,
+      "samples": 360,
+      "raf": 1,
+      "frames": 46162,
+      "heap": 10000000,
+      "elapsedWallMs": 260196
+    },
+    {
+      "t": 30.34583333333193,
+      "phase": "pid",
+      "restarts": 4,
+      "samples": 360,
+      "raf": 1,
+      "frames": 47935,
+      "heap": 10000000,
+      "elapsedWallMs": 270209
+    },
+    {
+      "t": 40.350000000005146,
+      "phase": "pid",
+      "restarts": 4,
+      "samples": 360,
+      "raf": 1,
+      "frames": 49705,
+      "heap": 10000000,
+      "elapsedWallMs": 280217
+    },
+    {
+      "t": 50.358333333346444,
+      "phase": "pid",
+      "restarts": 4,
+      "samples": 360,
+      "raf": 1,
+      "frames": 51488,
+      "heap": 10000000,
+      "elapsedWallMs": 290222
+    },
+    {
+      "t": 0.5124999999999994,
+      "phase": "swing",
+      "restarts": 5,
+      "samples": 16,
+      "raf": 1,
+      "frames": 53274,
+      "heap": 10000000,
+      "elapsedWallMs": 300236
+    },
+    {
+      "t": 10.441666666666395,
+      "phase": "pid",
+      "restarts": 5,
+      "samples": 314,
+      "raf": 1,
+      "frames": 55043,
+      "heap": 10000000,
+      "elapsedWallMs": 310245
+    }
+  ]
+}

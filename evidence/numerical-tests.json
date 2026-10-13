@@ -1,0 +1,484 @@
+{
+  "date": "2026-10-13",
+  "source": "Extracted physics-model from delivered main HTML",
+  "runtime": "v24.19.0",
+  "results": [
+    {
+      "id": "A05",
+      "name": "down 30 simulated seconds",
+      "status": "PASS",
+      "result": {
+        "t": 29.999999999998618,
+        "phase": "pid",
+        "x": -2.3897483957572807,
+        "v": -0.18797137312574352,
+        "e": -4.539444184893027e-9,
+        "omega": 2.3278137140433224e-9,
+        "switchTime": 2.270833333333341,
+        "restarts": 0,
+        "stable": true,
+        "samples": 360
+      }
+    },
+    {
+      "id": "A06",
+      "name": "near 30 simulated seconds",
+      "status": "PASS",
+      "result": {
+        "t": 29.999999999998618,
+        "phase": "pid",
+        "x": 1.6485634901583603,
+        "v": 0.021601905889438475,
+        "e": -6.515974944256159e-9,
+        "omega": 3.3413729627237014e-9,
+        "switchTime": null,
+        "restarts": 0,
+        "stable": true,
+        "samples": 360
+      }
+    },
+    {
+      "id": "A03",
+      "name": "deterministic restart numerics",
+      "status": "PASS",
+      "result": {
+        "t": 3.000000000000044,
+        "phase": "pid",
+        "x": 0.711698496424278,
+        "v": 0.09868971192705629,
+        "e": -0.005656334212473771,
+        "omega": 0.0035350839299257424,
+        "switchTime": null,
+        "restarts": 0,
+        "stable": true,
+        "samples": 90
+      }
+    },
+    {
+      "id": "A07",
+      "name": "held / released / both manual input",
+      "status": "PASS",
+      "result": [
+        -3,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "id": "A08",
+      "name": "strong manual disturbance trajectory and velocity bound",
+      "status": "PASS",
+      "result": {
+        "extrema": 2.0767242264608603,
+        "final": {
+          "t": 17.9999999999993,
+          "phase": "pid",
+          "x": 1.0121093573879922,
+          "v": -0.07318222454573821,
+          "e": -0.004229641190245028,
+          "omega": 0.0014839337827565146,
+          "switchTime": null,
+          "restarts": 0,
+          "stable": false,
+          "samples": 360
+        },
+        "samples": [
+          {
+            "i": 0,
+            "v": 0.10519956028034724,
+            "e": -0.00036135198408572105
+          },
+          {
+            "i": 24,
+            "v": 1.2328840056741688,
+            "e": -0.0893866516370016
+          },
+          {
+            "i": 48,
+            "v": 0.05422337361571304,
+            "e": -0.18095963559030617
+          },
+          {
+            "i": 72,
+            "v": -0.8346497904216944,
+            "e": -0.15645123603131417
+          },
+          {
+            "i": 96,
+            "v": -2.0752909000367157,
+            "e": -0.031007217989339222
+          },
+          {
+            "i": 120,
+            "v": -0.9178266122177702,
+            "e": 0.09393224668005302
+          },
+          {
+            "i": 144,
+            "v": -0.1389953921907142,
+            "e": 0.09451306738217295
+          },
+          {
+            "i": 168,
+            "v": -0.04071505711882417,
+            "e": 0.0740556944973345
+          },
+          {
+            "i": 192,
+            "v": -0.015193768589476176,
+            "e": 0.056044180054961194
+          },
+          {
+            "i": 216,
+            "v": -0.002105441736059313,
+            "e": 0.041796138103177255
+          },
+          {
+            "i": 240,
+            "v": 0.005599861499863305,
+            "e": 0.030683038446105027
+          },
+          {
+            "i": 264,
+            "v": 0.009579692548863665,
+            "e": 0.02204859630775853
+          },
+          {
+            "i": 288,
+            "v": 0.010765186992988892,
+            "e": 0.015360626192888336
+          },
+          {
+            "i": 312,
+            "v": 0.00985095578689792,
+            "e": 0.01019893191316491
+          },
+          {
+            "i": 336,
+            "v": 0.0073765457560369466,
+            "e": 0.00623294215898159
+          },
+          {
+            "i": 360,
+            "v": 0.0037620981867236,
+            "e": 0.003202796868947967
+          },
+          {
+            "i": 384,
+            "v": -0.0006660062811600835,
+            "e": 0.0009043006587902933
+          },
+          {
+            "i": 408,
+            "v": -0.005655062051272743,
+            "e": -0.0008229483069187216
+          },
+          {
+            "i": 432,
+            "v": -0.011010184656529625,
+            "e": -0.0021049079103626377
+          },
+          {
+            "i": 456,
+            "v": -0.01658180993955396,
+            "e": -0.003040450915609216
+          },
+          {
+            "i": 480,
+            "v": -0.022255850926055955,
+            "e": -0.0037071548947226886
+          },
+          {
+            "i": 504,
+            "v": -0.027945955370363894,
+            "e": -0.004165856779425078
+          },
+          {
+            "i": 528,
+            "v": -0.03358742029339102,
+            "e": -0.004464235149066869
+          },
+          {
+            "i": 552,
+            "v": -0.03913241182804048,
+            "e": -0.004639627551777357
+          },
+          {
+            "i": 576,
+            "v": -0.04454621247317452,
+            "e": -0.00472124606184016
+          },
+          {
+            "i": 600,
+            "v": -0.04980427658077347,
+            "e": -0.0047319195060704245
+          },
+          {
+            "i": 624,
+            "v": -0.054889921416351364,
+            "e": -0.004689463403889918
+          },
+          {
+            "i": 648,
+            "v": -0.05979251787313853,
+            "e": -0.004607757106558173
+          },
+          {
+            "i": 672,
+            "v": -0.06450607389025953,
+            "e": -0.004497590656548046
+          },
+          {
+            "i": 696,
+            "v": -0.06902812644393326,
+            "e": -0.004367330542024194
+          }
+        ]
+      }
+    },
+    {
+      "id": "A09",
+      "name": "V zero leaves PID active",
+      "status": "PASS",
+      "result": {
+        "t": 0.004166666666666667,
+        "phase": "pid",
+        "x": 0.00013723897629542173,
+        "v": 0.032937354310901217,
+        "e": 0.10441042803581226,
+        "omega": -0.028484319101628512,
+        "switchTime": null,
+        "restarts": 0,
+        "stable": false,
+        "samples": 1
+      }
+    },
+    {
+      "id": "A10",
+      "name": "boundary -1 resets snapshot and runtime",
+      "status": "PASS",
+      "result": {
+        "t": 0,
+        "phase": "pid",
+        "x": 0,
+        "v": 0,
+        "e": 0.10452846326765346,
+        "omega": 0,
+        "switchTime": null,
+        "restarts": 3,
+        "stable": false,
+        "samples": 0
+      }
+    },
+    {
+      "id": "A10",
+      "name": "boundary 1 resets snapshot and runtime",
+      "status": "PASS",
+      "result": {
+        "t": 0,
+        "phase": "pid",
+        "x": 0,
+        "v": 0,
+        "e": 0.10452846326765346,
+        "omega": 0,
+        "switchTime": null,
+        "restarts": 3,
+        "stable": false,
+        "samples": 0
+      }
+    },
+    {
+      "id": "A12",
+      "name": "downward e zero never balanced",
+      "status": "PASS",
+      "result": {
+        "e": 1.2246467991473532e-16,
+        "yCOM": -1,
+        "de": 0
+      }
+    },
+    {
+      "id": "A13",
+      "name": "non-default stable gains no suggestion",
+      "status": "PASS",
+      "result": {
+        "state": {
+          "t": 29.999999999998618,
+          "phase": "pid",
+          "x": 1.274553864049284,
+          "v": 0.01617751976923107,
+          "e": -1.2173818112379806e-10,
+          "omega": 7.978228786792139e-11,
+          "switchTime": null,
+          "restarts": 0,
+          "stable": true,
+          "samples": 360
+        },
+        "feedback": {
+          "kind": "success",
+          "title": "已達直立平衡",
+          "text": "目前觀察窗內已穩定，不提供調參建議。"
+        }
+      }
+    },
+    {
+      "id": "A14",
+      "name": "feedback precedence branches",
+      "status": "PASS",
+      "result": [
+        {
+          "kind": "neutral",
+          "title": "自動起擺，PID 尚未接手",
+          "text": "獨立能量控制器正在起擺；此時 P／I／D 均為 0，方向輸入暫不加入。"
+        },
+        {
+          "kind": "neutral",
+          "title": "正在累積觀察資料",
+          "text": "目前參數的資料不足 2 秒，尚無完整觀察窗。"
+        },
+        {
+          "kind": "neutral",
+          "title": "先觀察干擾後的恢復",
+          "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+        },
+        {
+          "kind": "neutral",
+          "title": "先觀察干擾後的恢復",
+          "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+        },
+        {
+          "kind": "neutral",
+          "title": "正在累積觀察資料",
+          "text": "目前參數的資料不足 2 秒，尚無完整觀察窗。"
+        }
+      ]
+    },
+    {
+      "id": "A15,A18",
+      "name": "zero gains fail naturally and retain sample data",
+      "status": "PASS",
+      "result": {
+        "state": {
+          "t": 0.9666666666666645,
+          "phase": "failed",
+          "x": 0,
+          "v": 0,
+          "e": 0.8705795666461377,
+          "omega": 3.1118603772363427,
+          "switchTime": null,
+          "restarts": 0,
+          "stable": false,
+          "samples": 29
+        },
+        "feedback": {
+          "kind": "warning",
+          "title": "失去平衡 · 結果已保留",
+          "text": "已超出 ±1.05 rad，失去平衡並停止。目前參數的資料不足 2 秒，尚無完整觀察窗。 三項增益全零，沒有 PID 修正。 請修改設定後重新開始比較。"
+        }
+      }
+    },
+    {
+      "id": "A16",
+      "name": "input validation",
+      "status": "PASS",
+      "result": "Empty/nonfinite/out of range rejected; zero accepted"
+    },
+    {
+      "id": "A17",
+      "name": "raw uses actual candidate I even when integration rejected",
+      "status": "PASS",
+      "result": {
+        "t": 0,
+        "e": 0.10452846326765346,
+        "yCOM": 0.9945218953682733,
+        "omega": 0,
+        "de": 0,
+        "manual": 3,
+        "P": 4.181138530706138,
+        "I": 8.01742141054461,
+        "D": 0,
+        "raw": 15.19855994125075,
+        "vCommand": 4,
+        "a": 20,
+        "speedLimited": true,
+        "accelLimited": true,
+        "limited": true,
+        "v": 0,
+        "phase": "pid"
+      }
+    },
+    {
+      "id": "A17",
+      "name": "sample calculations / timestamps / 12 seconds",
+      "status": "PASS",
+      "result": {
+        "length": 360,
+        "first": 17.9999999999993,
+        "last": 29.966666666665287
+      }
+    },
+    {
+      "id": "A13,A14",
+      "name": "strict full two-second stability and current state requirement",
+      "status": "PASS",
+      "result": "No early success; exact upright numerical fixture is test-only, not animation"
+    },
+    {
+      "id": "A17",
+      "name": "Ki zero clears z, other gains preserve it",
+      "status": "PASS",
+      "result": "gain changes restart observation without arbitrary integral reset"
+    },
+    {
+      "id": "A14",
+      "name": "saturation / oscillation / unknown diagnosis branches (synthetic feedback fixtures)",
+      "status": "PASS",
+      "result": {
+        "saturated": {
+          "kind": "neutral",
+          "title": "控制輸出受限",
+          "text": "最近 2 秒超過 20% 取樣受速度或加速度限制；加大增益未必有效。先減少干擾，查看哪項分量較大。"
+        },
+        "oscillation": {
+          "kind": "neutral",
+          "title": "觀察到左右震盪",
+          "text": "可小幅試調 Kd；若 I 分量偏大，另一次實驗再試調 Ki。震盪不一定只有單一成因。"
+        },
+        "unknown": {
+          "kind": "neutral",
+          "title": "持續觀察，逐項比較",
+          "text": "目前無法唯一診斷。使用相同初始姿態、不加手動輸入，每次只改一項，比較偏移與 P／I／D 波形。"
+        }
+      }
+    },
+    {
+      "id": "A23",
+      "name": "300 simulated seconds / restarts bounded",
+      "status": "PASS",
+      "result": {
+        "t": 0.7499999999999986,
+        "phase": "swing",
+        "x": 1.901571492898643,
+        "v": 4,
+        "e": -0.9383042903544832,
+        "omega": 0.7183443918259432,
+        "switchTime": null,
+        "restarts": 5,
+        "stable": false,
+        "samples": 23,
+        "maxSamples": 360,
+        "totalSimulatedSeconds": 300
+      }
+    },
+    {
+      "id": "A21,A22",
+      "name": "standalone source and bit-identical entry",
+      "status": "PASS",
+      "result": {
+        "bytes": 38599,
+        "externalResources": 0
+      }
+    }
+  ]
+}

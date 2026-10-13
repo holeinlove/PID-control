@@ -1,0 +1,196 @@
+{
+  "preparedAt": "2026-10-13T15:48:19.314832+08:00",
+  "repository": "https://github.com/holeinlove/PID-control.git",
+  "targetBranch": "main",
+  "authorization": "APPROVED by user: 好，幫我發布",
+  "changes": "New files in currently empty repository; no existing files replaced",
+  "pagesScope": {
+    "currentHasPages": false,
+    "requestEnable": true,
+    "sourceBranch": "main",
+    "sourcePath": "/",
+    "effect": "Enable first GitHub Pages publication; subsequent pushes to this source trigger automatic rebuild",
+    "workflowFilesAdded": false
+  },
+  "manifestFile": "upload-manifest.json",
+  "note": "This manifest is itself included in requested upload scope; its own hash is intentionally omitted. Raw disturbance-frames PNGs are local-only.",
+  "files": [
+    {
+      "path": "PID control Cart-Pole.html",
+      "bytes": 38599,
+      "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 38599,
+      "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c"
+    },
+    {
+      "path": "PID-control-Cart-Pole-spec.md",
+      "bytes": 21929,
+      "sha256": "ecbe78c1bca09f02d8576bbe20bebff8f4257ace106a3536e685b07033a73dab"
+    },
+    {
+      "path": "ui-reference.svg",
+      "bytes": 6192,
+      "sha256": "a2e4be0b1c845280e11e2a49fff8fff4e814a14c6d0fc8115569f36161ded13c"
+    },
+    {
+      "path": "ITERATION-AND-ACCEPTANCE.md",
+      "bytes": 14392,
+      "sha256": "195b52435fe1b7d4ac0196248ca010e5e0dba909ca295aad11e2696b66de5b75"
+    },
+    {
+      "path": "tests/browser.cjs",
+      "bytes": 14105,
+      "sha256": "f023ad74bb016aaf6365d371d911b1194292ed2880a40706a46c5ff5ec5f4fef"
+    },
+    {
+      "path": "tests/endurance.cjs",
+      "bytes": 1902,
+      "sha256": "574bbe5e402d97da72f361d32f6024193ace545162902e18a6b0edd437350593"
+    },
+    {
+      "path": "tests/make-evidence.py",
+      "bytes": 992,
+      "sha256": "6208a7bb2182330eb18f8e46a7a2abaa4782178af98751859eb8356ff1001e64"
+    },
+    {
+      "path": "tests/numerical.cjs",
+      "bytes": 7993,
+      "sha256": "dd3cb1cbb66ba4f34e4f470fa6d3ce6cb2b18ffaf2e10da8081804b365d12977"
+    },
+    {
+      "path": "tests/package-review.py",
+      "bytes": 2822,
+      "sha256": "9727470c02e1e6fd6f9a424eb0a3ea79faa0c9b2182becad0c14d8b2ffaa3243"
+    },
+    {
+      "path": "tests/README.md",
+      "bytes": 2136,
+      "sha256": "79c8f2cd79fc60ce079dd90f55515f0a7ec9f084de109a5b83f2287b8fee6972"
+    },
+    {
+      "path": "tests/visibility.cjs",
+      "bytes": 2570,
+      "sha256": "f987ce0071a5f3875735768680ba97e8961be559457d49f84dbbbc239e738b74"
+    },
+    {
+      "path": "evidence/balanced-down-30s.png",
+      "bytes": 274914,
+      "sha256": "95ffeef293700dc25f32b76c0887230b9297e2a86f1c38519506441a09bbe08a"
+    },
+    {
+      "path": "evidence/balanced-near-30s.png",
+      "bytes": 273668,
+      "sha256": "b51c5c148bfa1d7d9c5fc7f5adb2c4b219a8095b97f5f367a6f0cc2f618ff56f"
+    },
+    {
+      "path": "evidence/browser-recording-tests.json",
+      "bytes": 485,
+      "sha256": "932551cb6edbf6273a11a231938daabed80019c5c2ad9a0498781a42b1af315b"
+    },
+    {
+      "path": "evidence/browser-tests-initial.json",
+      "bytes": 14175,
+      "sha256": "273bc77ca5244a0854f2ccd9a7fc99fb2d9f5a0b7619039e00e3bebe15d4988f"
+    },
+    {
+      "path": "evidence/browser-tests.json",
+      "bytes": 15861,
+      "sha256": "be8793f61c56769612e3552511ff1edfc58eb5c4f8ab730877e507a164d7fb98"
+    },
+    {
+      "path": "evidence/disturbance-measurements.json",
+      "bytes": 30782,
+      "sha256": "6163c9bf5b3aeec060ec4997eb5fa75334a1033eeb90da1f7d99905d7d71d80f"
+    },
+    {
+      "path": "evidence/endurance-310s.png",
+      "bytes": 278808,
+      "sha256": "02b3155986789389a2d6871692abba65f1f8cc1bce4949ccfb30ad671af2cb2f"
+    },
+    {
+      "path": "evidence/endurance-tests.json",
+      "bytes": 6462,
+      "sha256": "cafaf9dec4bacb0168f97b76f3b81dbf43edec1c5dd1662a09cf25013f40aca4"
+    },
+    {
+      "path": "evidence/hashes.json",
+      "bytes": 225,
+      "sha256": "7fb17fdc9464e6363718aea3e9186ce97e2fb957226223f80d18921e141bacac"
+    },
+    {
+      "path": "evidence/initial-1280.png",
+      "bytes": 276539,
+      "sha256": "09380e23d11ddf0d0d8557d0e77f08785241c66d50e1688a0e5c48892fd5a537"
+    },
+    {
+      "path": "evidence/layout-1280-top.png",
+      "bytes": 108031,
+      "sha256": "71a3af09e80a93c2893f7880fb202fcd757cfd20f162dad6919476d7720b9981"
+    },
+    {
+      "path": "evidence/layout-1280.png",
+      "bytes": 276807,
+      "sha256": "8e7d027eaed4f212c9fe0fced71644d8c1dae7fd8a0d96a825e1774c976d1dd8"
+    },
+    {
+      "path": "evidence/layout-320-teaching.png",
+      "bytes": 72032,
+      "sha256": "c29d2c12193b0ae76fbbd8e69409cc992994e78fc565466c0d326f42d2613027"
+    },
+    {
+      "path": "evidence/layout-320-top.png",
+      "bytes": 46071,
+      "sha256": "18630d1ee306059b82e8c6f50f987f53615e13a6e7aabe3408456a011873623f"
+    },
+    {
+      "path": "evidence/layout-320.png",
+      "bytes": 254385,
+      "sha256": "13309297367ffa95401ea89f46855f6635866286917d0187975971f5fc0fc851"
+    },
+    {
+      "path": "evidence/layout-768-top.png",
+      "bytes": 97160,
+      "sha256": "2c20b159a048447602e7af2a92a8590ca2b7604445eae62c711ddb908705a120"
+    },
+    {
+      "path": "evidence/layout-768.png",
+      "bytes": 266161,
+      "sha256": "621a2819cd6054c4a5dd71c0daaaefce9bf924a39f0d3f85d54715402f19631e"
+    },
+    {
+      "path": "evidence/manual-disturbance.gif",
+      "bytes": 4144792,
+      "sha256": "8015ae5f1619ee73846afe4c5878e0ece418fd72915984c6ce0294099ee52a61"
+    },
+    {
+      "path": "evidence/nondefault-balanced.png",
+      "bytes": 278141,
+      "sha256": "e414a55ea2655ac37e5259fe3d22364eb9f93b6a35f3de1cfdf40bc7f060adba"
+    },
+    {
+      "path": "evidence/numerical-tests.json",
+      "bytes": 12867,
+      "sha256": "92722a69f4cf45bc90de3d5d97673fb1825f43e1e6fdef408d78fbc873a2f8db"
+    },
+    {
+      "path": "evidence/repository-before-upload.json",
+      "bytes": 291,
+      "sha256": "9da616494d173285f1443e5c34848d3dc5d0ba38bf1062458023fd9fcb84117e"
+    },
+    {
+      "path": "evidence/visibility-tests.json",
+      "bytes": 539,
+      "sha256": "c5c33c435bc40b7c2fa7d0641aa6c78e9400efe8615a59a902d295c8ffcacf15"
+    },
+    {
+      "path": "evidence/zero-gains-failure.png",
+      "bytes": 281571,
+      "sha256": "95c7768ebeb53e138e4655f280110384c561ab7d06f65bb3b0409b4e27825ecc"
+    }
+  ],
+  "approvalRecordedAt": "2026-10-13T15:56:58.314+08:00",
+  "approvalScope": "The listed 36 files to main, enable GitHub Pages from main root, then online acceptance and delivery records."
+}

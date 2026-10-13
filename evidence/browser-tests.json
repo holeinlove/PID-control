@@ -1,0 +1,632 @@
+{
+  "date": "2026-10-13",
+  "browser": "Chrome 155.0.8059.40",
+  "offline": true,
+  "errors": [],
+  "networkRequests": [],
+  "results": [
+    {
+      "id": "A01",
+      "name": "first open exact defaults / screenshot",
+      "status": "PASS",
+      "result": {
+        "p": {
+          "kp": 0,
+          "ki": 0,
+          "kd": 0,
+          "V": 3
+        },
+        "pose": "down",
+        "phase": "idle",
+        "snapshot": "down",
+        "t": 0,
+        "x": 0,
+        "v": 0,
+        "omega": 0,
+        "theta": 3.141592653589793,
+        "z": 0,
+        "restarts": 0,
+        "samples": 0,
+        "running": false,
+        "raf": 1,
+        "left": false,
+        "right": false,
+        "manual": 0,
+        "stable": false,
+        "feedback": {
+          "kind": "neutral",
+          "title": "準備好你的第一個實驗",
+          "text": "選擇初始姿態，填入 PID 後「重新開始」，或用「一鍵平衡」比較 6／12／1。"
+        }
+      }
+    },
+    {
+      "id": "A04,A05",
+      "name": "one-click preserves V and down swing reaches balance",
+      "status": "PASS",
+      "result": {
+        "p": {
+          "kp": 6,
+          "ki": 12,
+          "kd": 1,
+          "V": 1.7
+        },
+        "pose": "down",
+        "phase": "pid",
+        "snapshot": "down",
+        "t": 30.004166666665284,
+        "x": -2.3905316098126206,
+        "v": -0.18797137330651897,
+        "omega": 2.322850593003501e-9,
+        "theta": -4.529765643752711e-9,
+        "z": -0.01566427930732293,
+        "restarts": 0,
+        "samples": 360,
+        "running": true,
+        "raf": 1,
+        "left": false,
+        "right": false,
+        "manual": 0,
+        "stable": true,
+        "feedback": {
+          "kind": "success",
+          "title": "已達直立平衡",
+          "text": "目前觀察窗內已穩定，不提供調參建議。"
+        }
+      }
+    },
+    {
+      "id": "A06",
+      "name": "near pose direct PID, 30 real simulation seconds",
+      "status": "PASS",
+      "result": {
+        "p": {
+          "kp": 6,
+          "ki": 12,
+          "kd": 1,
+          "V": 1.7
+        },
+        "pose": "near",
+        "phase": "pid",
+        "snapshot": "near",
+        "t": 30.004166666665284,
+        "x": 1.648653498098485,
+        "v": 0.02160190562994369,
+        "omega": 3.3342488249964007e-9,
+        "theta": -6.502082240818674e-9,
+        "z": 0.0018001613884679407,
+        "restarts": 0,
+        "samples": 360,
+        "running": true,
+        "raf": 1,
+        "left": false,
+        "right": false,
+        "manual": 0,
+        "stable": true,
+        "feedback": {
+          "kind": "success",
+          "title": "已達直立平衡",
+          "text": "目前觀察窗內已穩定，不提供調參建議。"
+        }
+      }
+    },
+    {
+      "id": "A02",
+      "name": "reset all values and dynamic state",
+      "status": "PASS",
+      "result": {
+        "p": {
+          "kp": 0,
+          "ki": 0,
+          "kd": 0,
+          "V": 0
+        },
+        "pose": "down",
+        "phase": "idle",
+        "snapshot": "down",
+        "t": 0,
+        "x": 0,
+        "v": 0,
+        "omega": 0,
+        "theta": 3.141592653589793,
+        "z": 0,
+        "restarts": 0,
+        "samples": 0,
+        "running": false,
+        "raf": 1,
+        "left": false,
+        "right": false,
+        "manual": 0,
+        "stable": false,
+        "feedback": {
+          "kind": "neutral",
+          "title": "準備好你的第一個實驗",
+          "text": "選擇初始姿態，填入 PID 後「重新開始」，或用「一鍵平衡」比較 6／12／1。"
+        }
+      }
+    },
+    {
+      "id": "A03",
+      "name": "UI restart preserves custom settings / same initial snapshot",
+      "status": "PASS",
+      "result": {
+        "a": {
+          "p": {
+            "kp": 7,
+            "ki": 13,
+            "kd": 1.2,
+            "V": 1.4
+          },
+          "pose": "near",
+          "phase": "pid",
+          "snapshot": "near",
+          "t": 0,
+          "x": 0,
+          "v": 0,
+          "omega": 0,
+          "theta": 0.10471975511965977,
+          "z": 0,
+          "restarts": 0,
+          "samples": 0,
+          "running": true,
+          "raf": 1,
+          "left": false,
+          "right": false,
+          "manual": 0,
+          "stable": false,
+          "feedback": {
+            "kind": "neutral",
+            "title": "正在累積觀察資料",
+            "text": "目前參數的資料不足 2 秒，尚無完整觀察窗。"
+          }
+        },
+        "b": {
+          "p": {
+            "kp": 7,
+            "ki": 13,
+            "kd": 1.2,
+            "V": 1.4
+          },
+          "pose": "near",
+          "phase": "pid",
+          "snapshot": "near",
+          "t": 0,
+          "x": 0,
+          "v": 0,
+          "omega": 0,
+          "theta": 0.10471975511965977,
+          "z": 0,
+          "restarts": 0,
+          "samples": 0,
+          "running": true,
+          "raf": 1,
+          "left": false,
+          "right": false,
+          "manual": 0,
+          "stable": false,
+          "feedback": {
+            "kind": "neutral",
+            "title": "正在累積觀察資料",
+            "text": "目前參數的資料不足 2 秒，尚無完整觀察窗。"
+          }
+        }
+      }
+    },
+    {
+      "id": "A13",
+      "name": "nondefault UI balanced without gain advice",
+      "status": "PASS",
+      "result": {
+        "p": {
+          "kp": 7,
+          "ki": 13,
+          "kd": 1.2,
+          "V": 1.4
+        },
+        "pose": "near",
+        "phase": "pid",
+        "snapshot": "near",
+        "t": 2.8125000000000346,
+        "x": 0.692232705359834,
+        "v": 0.1093974479569913,
+        "omega": 0.0038891074099802626,
+        "theta": -0.006351699963897986,
+        "z": 0.011130361053516502,
+        "restarts": 0,
+        "samples": 85,
+        "running": true,
+        "raf": 1,
+        "left": false,
+        "right": false,
+        "manual": 0,
+        "stable": true,
+        "feedback": {
+          "kind": "success",
+          "title": "已達直立平衡",
+          "text": "目前觀察窗內已穩定，不提供調參建議。"
+        }
+      }
+    },
+    {
+      "id": "A07",
+      "name": "keyboard left/right/both/release",
+      "status": "PASS",
+      "result": "UI keyboard sequence asserted"
+    },
+    {
+      "id": "A16",
+      "name": "invalid / out of range prevents apply, input arrows ignored",
+      "status": "PASS",
+      "result": {
+        "p": {
+          "kp": 7,
+          "ki": 13,
+          "kd": 1.2,
+          "V": 3
+        },
+        "pose": "near",
+        "phase": "pid",
+        "snapshot": "near",
+        "t": 2.9750000000000427,
+        "x": 0.7050700914828615,
+        "v": 0.0808569087207967,
+        "omega": 0.0242292062576575,
+        "theta": -0.0015641126408731604,
+        "z": 0.010304197196160434,
+        "restarts": 0,
+        "samples": 90,
+        "running": true,
+        "raf": 1,
+        "left": false,
+        "right": false,
+        "manual": 0,
+        "stable": false,
+        "feedback": {
+          "kind": "neutral",
+          "title": "先觀察干擾後的恢復",
+          "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+        }
+      }
+    },
+    {
+      "id": "A09",
+      "name": "zero manual speed message and one-click preserves zero",
+      "status": "PASS",
+      "result": {
+        "p": {
+          "kp": 6,
+          "ki": 12,
+          "kd": 1,
+          "V": 0
+        },
+        "pose": "near",
+        "phase": "pid",
+        "snapshot": "near",
+        "t": 0.0125,
+        "x": 0.000775303299782926,
+        "v": 0.09021664966604259,
+        "omega": -0.07691790692576092,
+        "theta": 0.10405544695650694,
+        "z": 0.0013046892290844553,
+        "restarts": 0,
+        "samples": 1,
+        "running": true,
+        "raf": 1,
+        "left": false,
+        "right": false,
+        "manual": 0,
+        "stable": false,
+        "feedback": {
+          "kind": "neutral",
+          "title": "先觀察干擾後的恢復",
+          "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+        }
+      }
+    },
+    {
+      "id": "A10,A11",
+      "name": "both boundary sides and changed pose snapshot (injected boundary fixtures)",
+      "status": "PASS",
+      "result": [
+        {
+          "event": "boundary",
+          "p": {
+            "kp": 6,
+            "ki": 12,
+            "kd": 1,
+            "V": 0
+          },
+          "snapshot": "near",
+          "theta": 0.10471975511965977,
+          "x": 0,
+          "v": 0,
+          "z": 0,
+          "samples": 0,
+          "restarts": 1,
+          "left": false,
+          "right": false,
+          "running": true
+        },
+        {
+          "event": "boundary",
+          "p": {
+            "kp": 6,
+            "ki": 12,
+            "kd": 1,
+            "V": 0
+          },
+          "snapshot": "near",
+          "theta": 0.10471975511965977,
+          "x": 0,
+          "v": 0,
+          "z": 0,
+          "samples": 0,
+          "restarts": 1,
+          "left": false,
+          "right": false,
+          "running": true
+        }
+      ]
+    },
+    {
+      "id": "A15,A18",
+      "name": "zero gains naturally fail / preserve / restart recovers",
+      "status": "PASS",
+      "result": {
+        "before": {
+          "p": {
+            "kp": 0,
+            "ki": 0,
+            "kd": 0,
+            "V": 0
+          },
+          "pose": "near",
+          "phase": "failed",
+          "snapshot": "near",
+          "t": 0.9666666666666645,
+          "x": 0,
+          "v": 0,
+          "omega": 3.1118603772363427,
+          "theta": 1.056379010651622,
+          "z": 0,
+          "restarts": 0,
+          "samples": 29,
+          "running": false,
+          "raf": 1,
+          "left": false,
+          "right": false,
+          "manual": 0,
+          "stable": false,
+          "feedback": {
+            "kind": "warning",
+            "title": "失去平衡 · 結果已保留",
+            "text": "已超出 ±1.05 rad，失去平衡並停止。目前參數的資料不足 2 秒，尚無完整觀察窗。 三項增益全零，沒有 PID 修正。 請修改設定後重新開始比較。"
+          }
+        },
+        "after": {
+          "p": {
+            "kp": 0,
+            "ki": 0,
+            "kd": 0,
+            "V": 0
+          },
+          "pose": "near",
+          "phase": "failed",
+          "snapshot": "near",
+          "t": 0.9666666666666645,
+          "x": 0,
+          "v": 0,
+          "omega": 3.1118603772363427,
+          "theta": 1.056379010651622,
+          "z": 0,
+          "restarts": 0,
+          "samples": 29,
+          "running": false,
+          "raf": 1,
+          "left": false,
+          "right": false,
+          "manual": 0,
+          "stable": false,
+          "feedback": {
+            "kind": "warning",
+            "title": "失去平衡 · 結果已保留",
+            "text": "已超出 ±1.05 rad，失去平衡並停止。目前參數的資料不足 2 秒，尚無完整觀察窗。 三項增益全零，沒有 PID 修正。 請修改設定後重新開始比較。"
+          }
+        }
+      }
+    },
+    {
+      "id": "A19",
+      "name": "pointer capture release outside / cancellation / window blur",
+      "status": "PASS",
+      "result": "Real mouse pointer capture/up; synthetic pointercancel and blur event"
+    },
+    {
+      "id": "A19",
+      "name": "actual background tab / return (isolated noDefaults browser)",
+      "status": "PASS",
+      "result": {
+        "date": "2026-10-13",
+        "id": "A19",
+        "browser": "155.0.8059.40",
+        "method": "Actual background tab with noDefaults CDP connection; no visibility property mocking",
+        "before": {
+          "hidden": true,
+          "t": 0.04583333333333333,
+          "left": false,
+          "right": false,
+          "raf": 1
+        },
+        "during": {
+          "hidden": true,
+          "t": 0.04583333333333333,
+          "left": false,
+          "right": false
+        },
+        "after": {
+          "hidden": false,
+          "t": 0.1791666666666668,
+          "left": false,
+          "right": false,
+          "raf": 1
+        },
+        "status": "PASS"
+      }
+    },
+    {
+      "id": "A19",
+      "name": "repeated start/reset keeps one RAF; long frame capped",
+      "status": "PASS",
+      "result": {
+        "before": 0.008333333333333333,
+        "after": 0.016666666666666666,
+        "raf": 1
+      }
+    },
+    {
+      "id": "A07,A19,A20",
+      "name": "320px actual touch left / both / cancel",
+      "status": "PASS",
+      "result": {
+        "left": {
+          "left": true,
+          "right": false,
+          "manual": -3
+        },
+        "both": {
+          "left": true,
+          "right": true,
+          "manual": 0
+        },
+        "canceled": {
+          "left": false,
+          "right": false
+        }
+      }
+    },
+    {
+      "id": "A20",
+      "name": "320 / 768 / 1280 layout and screenshots",
+      "status": "PASS",
+      "result": [
+        {
+          "viewport": 320,
+          "scroll": 320,
+          "buttons": [
+            {
+              "id": "balance",
+              "w": 82,
+              "h": 46
+            },
+            {
+              "id": "reset",
+              "w": 82,
+              "h": 46
+            },
+            {
+              "id": "restart",
+              "w": 82,
+              "h": 46
+            },
+            {
+              "id": "left",
+              "w": 126,
+              "h": 47.59375
+            },
+            {
+              "id": "right",
+              "w": 126,
+              "h": 47.59375
+            }
+          ],
+          "overflow": []
+        },
+        {
+          "viewport": 768,
+          "scroll": 768,
+          "buttons": [
+            {
+              "id": "balance",
+              "w": 124.5625,
+              "h": 47.59375
+            },
+            {
+              "id": "reset",
+              "w": 124.5625,
+              "h": 47.59375
+            },
+            {
+              "id": "restart",
+              "w": 124.5625,
+              "h": 47.59375
+            },
+            {
+              "id": "left",
+              "w": 189.84375,
+              "h": 47.59375
+            },
+            {
+              "id": "right",
+              "w": 189.84375,
+              "h": 47.59375
+            }
+          ],
+          "overflow": []
+        },
+        {
+          "viewport": 1280,
+          "scroll": 1280,
+          "buttons": [
+            {
+              "id": "balance",
+              "w": 98,
+              "h": 47.59375
+            },
+            {
+              "id": "reset",
+              "w": 66,
+              "h": 47.59375
+            },
+            {
+              "id": "restart",
+              "w": 98,
+              "h": 47.59375
+            },
+            {
+              "id": "left",
+              "w": 361.171875,
+              "h": 47.59375
+            },
+            {
+              "id": "right",
+              "w": 361.171875,
+              "h": 47.59375
+            }
+          ],
+          "overflow": []
+        }
+      ]
+    },
+    {
+      "id": "A21",
+      "name": "offline file reload remains interactive with inline illustrations",
+      "status": "PASS",
+      "result": {
+        "offline": true,
+        "scheme": "file:",
+        "requests": [],
+        "errors": []
+      }
+    },
+    {
+      "id": "A08",
+      "name": "record real V=3 start / release / reverse sequence",
+      "status": "PASS",
+      "result": {
+        "maxV": 2.545792202853619,
+        "frames": 45,
+        "note": "Real rendered frames and DOM keyboard input. Timing is recorded in measurement timestamps; no prerecorded simulation."
+      }
+    }
+  ]
+}

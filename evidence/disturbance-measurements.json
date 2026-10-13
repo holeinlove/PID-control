@@ -1,0 +1,1352 @@
+[
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 2.7875000000000334,
+    "x": 0.7921584872487929,
+    "v": 0.15906961019883187,
+    "omega": 0.0033347280209963734,
+    "theta": -0.007190818309912079,
+    "z": 0.016138297673139665,
+    "restarts": 0,
+    "samples": 84,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 2.9083333333333727,
+    "x": 0.8108626354670406,
+    "v": 0.1508800272770746,
+    "omega": 0.0032204050353461435,
+    "theta": -0.006794830330114304,
+    "z": 0.015292652831472433,
+    "restarts": 0,
+    "samples": 88,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.029166666666712,
+    "x": 0.8286072185628762,
+    "v": 0.14316659326567707,
+    "omega": 0.0030913428527867123,
+    "theta": -0.006413651708342345,
+    "z": 0.014494009280022984,
+    "restarts": 0,
+    "samples": 91,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.1500000000000514,
+    "x": 0.8454482231539314,
+    "v": 0.13590459952243944,
+    "omega": 0.0029538637773798915,
+    "theta": -0.006048647996848651,
+    "z": 0.013740490425700806,
+    "restarts": 0,
+    "samples": 95,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": true,
+    "manual": 3,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.266666666666724,
+    "x": 0.9646648788059698,
+    "v": 1.3306512208345826,
+    "omega": -1.2408271837982525,
+    "theta": -0.11084578311474194,
+    "z": 0.008501160057203798,
+    "restarts": 0,
+    "samples": 98,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": true,
+    "manual": 3,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.395833333333397,
+    "x": 1.105784747429531,
+    "v": 0.7999366817388055,
+    "omega": -0.9485614345186649,
+    "theta": -0.2540961873747789,
+    "z": -0.015052034428864597,
+    "restarts": 0,
+    "samples": 102,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.5083333333334026,
+    "x": 1.0726658799205955,
+    "v": -1.0528020294221123,
+    "omega": 0.5408709571115571,
+    "theta": -0.2593091892780438,
+    "z": -0.045181892254610806,
+    "restarts": 0,
+    "samples": 106,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.633333333333409,
+    "x": 0.9138331583851131,
+    "v": -1.3648770582682512,
+    "omega": 0.5718457117501242,
+    "theta": -0.18381738030279357,
+    "z": -0.07279015643643932,
+    "restarts": 0,
+    "samples": 109,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.7500000000000813,
+    "x": 0.7516504585107624,
+    "v": -1.4044399593144872,
+    "omega": 0.43376096601900427,
+    "theta": -0.12554428030296258,
+    "z": -0.09072601286530002,
+    "restarts": 0,
+    "samples": 113,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.8666666666667537,
+    "x": 0.5872203582847898,
+    "v": -1.4109188223890483,
+    "omega": 0.3211020175969236,
+    "theta": -0.08204457124621628,
+    "z": -0.10277656671115142,
+    "restarts": 0,
+    "samples": 116,
+    "running": true,
+    "raf": 1,
+    "left": true,
+    "right": false,
+    "manual": -3,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 3.99166666666676,
+    "x": 0.2982318143420697,
+    "v": -2.578914119042064,
+    "omega": 1.457862763626704,
+    "theta": 0.06666382937557565,
+    "z": -0.10381041051066,
+    "restarts": 0,
+    "samples": 120,
+    "running": true,
+    "raf": 1,
+    "left": true,
+    "right": false,
+    "manual": -3,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 4.116666666666753,
+    "x": 0.008029989133775334,
+    "v": -1.9680190088645968,
+    "omega": 1.0330883483284092,
+    "theta": 0.22644956640609104,
+    "z": -0.08540055268620542,
+    "restarts": 0,
+    "samples": 124,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 4.2250000000000805,
+    "x": -0.09132000942078934,
+    "v": -0.19425085444395587,
+    "omega": -0.4264645963201971,
+    "theta": 0.24236743505181182,
+    "z": -0.05883476082080105,
+    "restarts": 0,
+    "samples": 127,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 4.345833333333407,
+    "x": -0.08780891460212631,
+    "v": 0.13335723242485706,
+    "omega": -0.4940466041606661,
+    "theta": 0.18102840995402417,
+    "z": -0.033286380905009634,
+    "restarts": 0,
+    "samples": 131,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 4.462500000000067,
+    "x": -0.0677638273601991,
+    "v": 0.19816213679963943,
+    "omega": -0.37982850105370997,
+    "theta": 0.1302932819804265,
+    "z": -0.01522612874343976,
+    "restarts": 0,
+    "samples": 134,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 4.579166666666727,
+    "x": -0.04254920804137604,
+    "v": 0.22985001794245144,
+    "omega": -0.2838646682391273,
+    "theta": 0.09202546738309395,
+    "z": -0.0023132808182879877,
+    "restarts": 0,
+    "samples": 138,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 4.691666666666721,
+    "x": -0.01563462004335451,
+    "v": 0.24612250403066815,
+    "omega": -0.21346879174343142,
+    "theta": 0.06437795557942065,
+    "z": 0.006459134861094546,
+    "restarts": 0,
+    "samples": 141,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 4.812500000000047,
+    "x": 0.01461246366052112,
+    "v": 0.25269662618150035,
+    "omega": -0.15660914656866884,
+    "theta": 0.04230650399667199,
+    "z": 0.012878832483707772,
+    "restarts": 0,
+    "samples": 145,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 4.929166666666707,
+    "x": 0.04407048066378027,
+    "v": 0.2512843157076065,
+    "omega": -0.1155732207884303,
+    "theta": 0.026628401360980963,
+    "z": 0.016885681738565028,
+    "restarts": 0,
+    "samples": 148,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.041666666666701,
+    "x": 0.07199971496653182,
+    "v": 0.2447745632664832,
+    "omega": -0.08570145552956872,
+    "theta": 0.01544606985824393,
+    "z": 0.01924421979887658,
+    "restarts": 0,
+    "samples": 152,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.150000000000028,
+    "x": 0.09799942582027162,
+    "v": 0.23513501743354528,
+    "omega": -0.06378119965818173,
+    "theta": 0.0074474495423402275,
+    "z": 0.020479647173731602,
+    "restarts": 0,
+    "samples": 155,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.275000000000021,
+    "x": 0.12651788042654658,
+    "v": 0.22122293047295877,
+    "omega": -0.04480474614125208,
+    "theta": 0.0007614417390636003,
+    "z": 0.020982113837574506,
+    "restarts": 0,
+    "samples": 159,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.391666666666681,
+    "x": 0.15145040945185242,
+    "v": 0.2065057027840602,
+    "omega": -0.03169877386342676,
+    "theta": -0.0036369151928107493,
+    "z": 0.020808792141369346,
+    "restarts": 0,
+    "samples": 162,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.508333333333341,
+    "x": 0.17460174358181596,
+    "v": 0.1908197857576956,
+    "omega": -0.021920341581361143,
+    "theta": -0.006716408194926554,
+    "z": 0.020200263200038798,
+    "restarts": 0,
+    "samples": 166,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.629166666666667,
+    "x": 0.19661602698212022,
+    "v": 0.17408552559891075,
+    "omega": -0.014427345438331123,
+    "theta": -0.008873555644618192,
+    "z": 0.019253829521667352,
+    "restarts": 0,
+    "samples": 169,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.745833333333327,
+    "x": 0.2159433619467535,
+    "v": 0.15782934635628956,
+    "omega": -0.009101556570277275,
+    "theta": -0.010219314954669767,
+    "z": 0.018136907687168344,
+    "restarts": 0,
+    "samples": 173,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.874999999999987,
+    "x": 0.23513944587176588,
+    "v": 0.14003069362654494,
+    "omega": -0.004829251791379463,
+    "theta": -0.011094362173485965,
+    "z": 0.016756358456555327,
+    "restarts": 0,
+    "samples": 177,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 5.991666666666647,
+    "x": 0.25052350537533424,
+    "v": 0.12432814296531133,
+    "omega": -0.0020613701451871226,
+    "theta": -0.01148197437766227,
+    "z": 0.01543712827859309,
+    "restarts": 0,
+    "samples": 180,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 6.10416666666664,
+    "x": 0.26364900593093515,
+    "v": 0.10963906035242023,
+    "omega": -0.00012228968062531293,
+    "theta": -0.011594975147824413,
+    "z": 0.014137286965369502,
+    "restarts": 0,
+    "samples": 184,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "先觀察干擾後的恢復",
+      "text": "手動輸入中，或放開後尚未滿 2 秒；先觀察恢復，不將結果歸咎於增益。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 6.229166666666633,
+    "x": 0.2763320249334888,
+    "v": 0.09392485586952072,
+    "omega": 0.001404755116309283,
+    "theta": -0.011505725987287939,
+    "z": 0.012691369477831255,
+    "restarts": 0,
+    "samples": 187,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 6.354166666666626,
+    "x": 0.2870951885152594,
+    "v": 0.07890524868810075,
+    "omega": 0.0024431871867437466,
+    "theta": -0.011258747484782242,
+    "z": 0.011266767397107184,
+    "restarts": 0,
+    "samples": 191,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 6.470833333333286,
+    "x": 0.2954871283883544,
+    "v": 0.06553996603867333,
+    "omega": 0.0030889220978674494,
+    "theta": -0.010932115792961666,
+    "z": 0.009970921913355522,
+    "restarts": 0,
+    "samples": 195,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 6.595833333333279,
+    "x": 0.3027929301363419,
+    "v": 0.051928553744205,
+    "omega": 0.003527473203201895,
+    "theta": -0.010515354998856544,
+    "z": 0.008629048535513897,
+    "restarts": 0,
+    "samples": 198,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 6.704166666666606,
+    "x": 0.3077832222517253,
+    "v": 0.04072134841233046,
+    "omega": 0.003751319589927401,
+    "theta": -0.010119510781453057,
+    "z": 0.007510306144978225,
+    "restarts": 0,
+    "samples": 202,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 6.829166666666599,
+    "x": 0.3120739743255424,
+    "v": 0.02845701911428088,
+    "omega": 0.0038785785943776033,
+    "theta": -0.009641132706991238,
+    "z": 0.006274127429703906,
+    "restarts": 0,
+    "samples": 205,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 6.937499999999926,
+    "x": 0.31458594226122505,
+    "v": 0.018390421224871948,
+    "omega": 0.0039058404417717345,
+    "theta": -0.009218836273565751,
+    "z": 0.005251656097792793,
+    "restarts": 0,
+    "samples": 209,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 7.04999999999992,
+    "x": 0.3160712137466566,
+    "v": 0.008470738544155644,
+    "omega": 0.0038754787155758363,
+    "theta": -0.008780726911333917,
+    "z": 0.004238314914148533,
+    "restarts": 0,
+    "samples": 212,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 7.1624999999999135,
+    "x": 0.31647127303625466,
+    "v": -0.0009251954657057694,
+    "omega": 0.0038022547763397643,
+    "theta": -0.008348672567204703,
+    "z": 0.0032739759408830183,
+    "restarts": 0,
+    "samples": 215,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": false,
+    "feedback": {
+      "kind": "neutral",
+      "title": "正在收斂 · 再觀察一下",
+      "text": "目前已進入容許範圍，需連續維持至少 2 秒，暫不建議改參數。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 7.28333333333324,
+    "x": 0.3157579516308181,
+    "v": -0.010458670146299722,
+    "omega": 0.0036905683343130672,
+    "theta": -0.007895933091295892,
+    "z": 0.0022917351880256164,
+    "restarts": 0,
+    "samples": 219,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 7.404166666666566,
+    "x": 0.31392740505659095,
+    "v": -0.019440849675675043,
+    "omega": 0.0035562611494609716,
+    "theta": -0.007458205114252986,
+    "z": 0.00136335031328513,
+    "restarts": 0,
+    "samples": 223,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 7.529166666666559,
+    "x": 0.3109270809733984,
+    "v": -0.028182245428001743,
+    "omega": 0.0034027975554434663,
+    "theta": -0.007023469810647754,
+    "z": 0.00045754785367517795,
+    "restarts": 0,
+    "samples": 226,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 7.645833333333219,
+    "x": 0.30717078593018515,
+    "v": -0.03586230952020558,
+    "omega": 0.0032523584636087416,
+    "theta": -0.006635521668018233,
+    "z": -0.0003398580733642467,
+    "restarts": 0,
+    "samples": 230,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 7.762499999999879,
+    "x": 0.3025451375402555,
+    "v": -0.043105023726408724,
+    "omega": 0.003099184562483955,
+    "theta": -0.006265323653820523,
+    "z": -0.0010929998002042701,
+    "restarts": 0,
+    "samples": 233,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 7.879166666666539,
+    "x": 0.29709973960844877,
+    "v": -0.0499337650518231,
+    "omega": 0.0029462329612691507,
+    "theta": -0.005913006618631117,
+    "z": -0.0018039587130763766,
+    "restarts": 0,
+    "samples": 237,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  },
+  {
+    "p": {
+      "kp": 6,
+      "ki": 12,
+      "kd": 1,
+      "V": 3
+    },
+    "pose": "near",
+    "phase": "pid",
+    "snapshot": "near",
+    "t": 8.004166666666533,
+    "x": 0.2904089768965,
+    "v": -0.05681644246095879,
+    "omega": 0.00278497759303752,
+    "theta": -0.005555180202405251,
+    "z": -0.0025212522278796065,
+    "restarts": 0,
+    "samples": 241,
+    "running": true,
+    "raf": 1,
+    "left": false,
+    "right": false,
+    "manual": 0,
+    "stable": true,
+    "feedback": {
+      "kind": "success",
+      "title": "已達直立平衡",
+      "text": "目前觀察窗內已穩定，不提供調參建議。"
+    }
+  }
+]
