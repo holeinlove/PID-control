@@ -628,5 +628,137 @@
         "note": "Real rendered frames and DOM keyboard input. Timing is recorded in measurement timestamps; no prerecorded simulation."
       }
     }
-  ]
+  ],
+  "onlineAcceptance": {
+    "id": "A22",
+    "status": "PASS",
+    "testedAt": "2026-10-13T16:01:34.025+08:00",
+    "browser": "155.0.8059.40",
+    "appSourceCommit": "3878a3208001945f08af935d48281f593db097d6",
+    "results": [
+      {
+        "url": "https://holeinlove.github.io/PID-control/",
+        "width": 1280,
+        "status": "PASS",
+        "httpStatus": 200,
+        "bytes": 38599,
+        "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c",
+        "initial": {
+          "p": {
+            "kp": 0,
+            "ki": 0,
+            "kd": 0,
+            "V": 3
+          },
+          "phase": "idle",
+          "t": 0,
+          "scroll": 1280,
+          "viewport": 1280
+        },
+        "swing": {
+          "phase": "swing",
+          "running": true
+        },
+        "stable": {
+          "t": 5.3500000000000165,
+          "phase": "pid",
+          "e": -0.0012573526844498872,
+          "v": -0.16235436656689672,
+          "restarts": 0,
+          "samples": 161,
+          "feedback": {
+            "kind": "success",
+            "title": "已達直立平衡",
+            "text": "目前觀察窗內已穩定，不提供調參建議。"
+          }
+        },
+        "reset": {
+          "p": {
+            "kp": 0,
+            "ki": 0,
+            "kd": 0,
+            "V": 0
+          },
+          "t": 0,
+          "phase": "idle"
+        },
+        "manual": {
+          "v": 0.6910985427516346,
+          "e": 0.0009676876028018896,
+          "manual": 1
+        },
+        "pageErrors": [],
+        "consoleErrors": [
+          {
+            "message": "Failed to load resource: the server responded with a status of 404 ()",
+            "location": {
+              "url": "https://holeinlove.github.io/favicon.ico",
+              "line": 0,
+              "column": 0,
+              "lineNumber": 0,
+              "columnNumber": 0
+            }
+          }
+        ],
+        "screenshot": "evidence/online-root.png",
+        "screenshotScope": "Local delivery evidence only; no addition to approved remote file list"
+      },
+      {
+        "url": "https://holeinlove.github.io/PID-control/PID%20control%20Cart-Pole.html",
+        "width": 320,
+        "status": "PASS",
+        "httpStatus": 200,
+        "bytes": 38599,
+        "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c",
+        "initial": {
+          "p": {
+            "kp": 0,
+            "ki": 0,
+            "kd": 0,
+            "V": 3
+          },
+          "phase": "idle",
+          "t": 0,
+          "scroll": 320,
+          "viewport": 320
+        },
+        "swing": {
+          "phase": "swing",
+          "running": true
+        },
+        "stable": {
+          "t": 5.3500000000000165,
+          "phase": "pid",
+          "e": -0.0012573526844498872,
+          "v": -0.16235436656689672,
+          "restarts": 0,
+          "samples": 161,
+          "feedback": {
+            "kind": "success",
+            "title": "已達直立平衡",
+            "text": "目前觀察窗內已穩定，不提供調參建議。"
+          }
+        },
+        "reset": {
+          "p": {
+            "kp": 0,
+            "ki": 0,
+            "kd": 0,
+            "V": 0
+          },
+          "t": 0,
+          "phase": "idle"
+        },
+        "manual": {
+          "v": 0.6845023439789792,
+          "e": -0.0005212472163629088,
+          "manual": 1
+        },
+        "pageErrors": [],
+        "consoleErrors": [],
+        "screenshot": "evidence/online-named-320.png",
+        "screenshotScope": "Local delivery evidence only; no addition to approved remote file list"
+      }
+    ]
+  }
 }

@@ -3,17 +3,18 @@
   "repository": "https://github.com/holeinlove/PID-control.git",
   "targetBranch": "main",
   "authorization": "APPROVED by user: 好，幫我發布",
-  "changes": "New files in currently empty repository; no existing files replaced",
+  "changes": "Initial 36-path upload to an empty main branch, followed by updates to existing approval/deployment/test records only.",
   "pagesScope": {
-    "currentHasPages": false,
+    "currentHasPages": true,
     "requestEnable": true,
     "sourceBranch": "main",
     "sourcePath": "/",
     "effect": "Enable first GitHub Pages publication; subsequent pushes to this source trigger automatic rebuild",
-    "workflowFilesAdded": false
+    "workflowFilesAdded": false,
+    "hasPagesBeforeApproval": false
   },
   "manifestFile": "upload-manifest.json",
-  "note": "This manifest is itself included in requested upload scope; its own hash is intentionally omitted. Raw disturbance-frames PNGs are local-only.",
+  "note": "This manifest is included in the approved 36-path remote scope. Its own hash is intentionally omitted. Raw disturbance frames and two online screenshots are local-only evidence.",
   "files": [
     {
       "path": "PID control Cart-Pole.html",
@@ -37,8 +38,8 @@
     },
     {
       "path": "ITERATION-AND-ACCEPTANCE.md",
-      "bytes": 14392,
-      "sha256": "195b52435fe1b7d4ac0196248ca010e5e0dba909ca295aad11e2696b66de5b75"
+      "bytes": 15206,
+      "sha256": "800c2d8fd286edf160c57e79bbe97e5bef1de5f69d8b2e9a53d1b1830205c6e3"
     },
     {
       "path": "tests/browser.cjs",
@@ -67,8 +68,8 @@
     },
     {
       "path": "tests/README.md",
-      "bytes": 2136,
-      "sha256": "79c8f2cd79fc60ce079dd90f55515f0a7ec9f084de109a5b83f2287b8fee6972"
+      "bytes": 2344,
+      "sha256": "0a6843523d46962c96618742d09538be2ca8a1edf7262a06dd153a9d3f9e867c"
     },
     {
       "path": "tests/visibility.cjs",
@@ -97,8 +98,8 @@
     },
     {
       "path": "evidence/browser-tests.json",
-      "bytes": 15861,
-      "sha256": "be8793f61c56769612e3552511ff1edfc58eb5c4f8ab730877e507a164d7fb98"
+      "bytes": 19505,
+      "sha256": "5bda8910587f2dabb7ab217d0701af5ba5196443f15b67b42aeff5db52563710"
     },
     {
       "path": "evidence/disturbance-measurements.json",
@@ -117,8 +118,8 @@
     },
     {
       "path": "evidence/hashes.json",
-      "bytes": 225,
-      "sha256": "7fb17fdc9464e6363718aea3e9186ce97e2fb957226223f80d18921e141bacac"
+      "bytes": 799,
+      "sha256": "d4784ef10acbb20f06e60326fe5cd26c231e645e6a39e5e9c6c4159ea6bbc7c3"
     },
     {
       "path": "evidence/initial-1280.png",
@@ -192,5 +193,17 @@
     }
   ],
   "approvalRecordedAt": "2026-10-13T15:56:58.314+08:00",
-  "approvalScope": "The listed 36 files to main, enable GitHub Pages from main root, then online acceptance and delivery records."
+  "approvalScope": "The listed 36 files to main, enable GitHub Pages from main root, then online acceptance and delivery records.",
+  "deployment": {
+    "status": "BUILT",
+    "applicationCommit": "3878a3208001945f08af935d48281f593db097d6",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "rootUrl": "https://holeinlove.github.io/PID-control/",
+    "namedUrl": "https://holeinlove.github.io/PID-control/PID%20control%20Cart-Pole.html",
+    "onlineAcceptance": "PASS",
+    "testedAt": "2026-10-13T16:01:34.025+08:00"
+  }
 }

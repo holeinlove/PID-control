@@ -4,5 +4,23 @@
   "main": "PID control Cart-Pole.html",
   "entry": "index.html",
   "sameBytes": true,
-  "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c"
+  "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c",
+  "onlineVerification": {
+    "testedAt": "2026-10-13T16:01:34.025+08:00",
+    "urls": [
+      {
+        "url": "https://holeinlove.github.io/PID-control/",
+        "httpStatus": 200,
+        "bytes": 38599,
+        "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c"
+      },
+      {
+        "url": "https://holeinlove.github.io/PID-control/PID%20control%20Cart-Pole.html",
+        "httpStatus": 200,
+        "bytes": 38599,
+        "sha256": "251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c"
+      }
+    ],
+    "matchesLocal": true
+  }
 }

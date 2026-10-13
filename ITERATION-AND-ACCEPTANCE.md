@@ -29,7 +29,7 @@
 - 本次工作目錄原為網路分享，但此環境無法存取；交付改存本次聊天本機可寫入目錄的 `pid-control/`。
 - 瀏覽器：Chrome 155.0.8059.40（Windows）。Node.js v24.19.0、Playwright。沒有宣稱其他瀏覽器已測。
 - 離線實測採 file: URL 與瀏覽器 offline 模式；不是只有檢查原始碼沒有外部連結。
-- 總结：23 項完成本機驗收；A22 線上部署待核准、待測。A22 中兩份 HTML 內容一致的本機檢查已完成。
+- 總結：A01～A24 全部完成指定範圍驗收。23項本機驗收與A22部署後線上驗收分開記錄；Chrome以外瀏覽器、實體手機仍未宣稱測試。
 - 本次原始規格第7節公式未更換。場景與圖表只讀模擬結果，正常控制流程不會直接修改角度來扶正擺桿。
 
 ## 四、本次迭代與真實修正
@@ -75,9 +75,9 @@
 | A19 | 通過 | 實際滑鼠 capture／外部放開；真實觸控取消；blur；隔離瀏覽器實際背景切換；250ms長影格最多追算0.05s；20次重置／重跑仍單一RAF。 | browser-tests.json；visibility-tests.json（首次失敗測試另保留） |
 | A20 | 通過 | 320/768/1280px 完整截图與 DOM 斷言均無水平溢出；所有按鈕高寬≥44px；逐圖檢視文字、圖解與操作。 | layout-320.png；layout-768.png；layout-1280.png；browser-tests.json |
 | A21 | 通過 | Chrome context offline 下直接 file: 開啟／重新載入主檔，模擬、4幅內嵌SVG、教學可用；外部請求0，錯誤0。 | browser-tests.json；numerical-tests.json |
-| A22 | 待測（部署） | HTML 已逐位元複製並驗證SHA-256一致；尚未核准上傳／啟用Pages，根網址與具名URL線上驗收待部署後執行。 | hashes.json；repository-before-upload.json |
+| A22 | 通過（線上） | 2026-10-13T16:01:34.025+08:00；Pages根網址及具名HTML均HTTP 200，首次待機、起擺→PID→穩定、全零重置、方向干擾皆通過；兩網址與本機HTML SHA-256一致。 | browser-tests.json的onlineAcceptance；hashes.json；線上截圖在本機交付ZIP |
 | A23 | 通過 | 實際連續運行約310.36秒，5次自然重跑，取樣陣列上限360，待執行RAF始終1，控制台錯誤0。另有300模擬秒測試。 | endurance-tests.json；endurance-310s.png；numerical-tests.json |
-| A24 | 通過（本機交付） | 規格、主檔、相同index、原參考SVG、歷史與新測試紀錄、測試腳本、真實證據與上傳清單均對應。遠端commit/核准/部署保留待填。 | 本文件；upload-manifest.json；tests/README.md |
+| A24 | 通過（交付） | 36個核准路徑已上傳main；規格、應用、歷史與新驗收證據對應，核准／實際應用commit／公開網址已補齊；線上截圖另放本機交付包。 | 本文件；upload-manifest.json；Git提交紀錄 |
 
 數值測試：20 個斷言案例全部通過。最終瀏覽器測試：18 組全部通過。耐久測試另立紀錄，真實經過 310.363 秒，非加速時鐘。
 
@@ -97,28 +97,28 @@
 
 `251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c`
 
-## 七、GitHub 上傳／發布前核准與後續交付
+## 七、已核准的GitHub上傳與發布紀錄
 
-- 目標儲存庫：<https://github.com/holeinlove/PID-control.git>。
-- 唯讀確認之預設分支：`main`。API size=0、git ls-remote HEAD無ref，內容查詢404；目前空儲存庫，無既有檔案將被覆蓋。查詢結果見repository-before-upload.json。
-- Pages：API has_pages=false，尚未啟用。現況不存在推送後自動發布的既有Pages設定。
-- **本次擬請核准範圍**：將upload-manifest.json所列檔案及manifest推送至main，並啟用GitHub Pages由main根目錄發布。啟用會觸發首次部署，此後推送至該來源會自動觸發Pages更新。沒有新增Actions工作流程。
-- 核准前已做：本機製作／驗收，公開GitHub唯讀檢查；**尚未push、透過API上傳、修改遠端、啟用Pages或發布**。
-- 使用者核准：**已核准**。使用者明確回覆「好，幫我發布」。核准紀錄時間：2026-10-13T15:56:58.314+08:00（Asia/Taipei；紀錄時間，非推定訊息發送時間）。範圍：先前列明36檔上傳main，啟用main根目錄GitHub Pages，並完成線上驗收與交付紀錄。
-- 實際commit：待上傳後填。
-- Pages部署結果：待核准後執行。公開根網址／具名URL：待成功部署後驗證並填寫，現在不宣稱任何URL已上線。
-- A22線上驗收：待測。需檢查根網址及具名URL皆可操作、抓取兩份HTML核對雜湊、記錄實際日期與截圖。
-- 核准後若授權／環境不足，須如實記錄阻礙，不擴大核准範圍。
+- 使用者明確核准訊息：「好，幫我發布」。核准紀錄時間：2026-10-13T15:56:58.314+08:00（Asia/Taipei；紀錄時間，非推定訊息發送时间）。
+- 核准範圍：原清單36檔上傳main，啟用main根目錄GitHub Pages，完成線上驗收與交付紀錄。沒有新增Actions工作流程，未擴大遠端檔案清單。
+- 發布帳號：holeinlove。官方Git Credential Manager登入成功，已確認對指定儲存庫具有push/admin權限；未將憑證写入成品或紀錄。
+- 目標儲存庫：<https://github.com/holeinlove/PID-control>。
+- 目標分支：main。上傳前唯讀檢查為空儲存庫且Pages未啟用；本次無覆蓋其他既有作品。
+- 應用程式實際commit：`3878a3208001945f08af935d48281f593db097d6`（Build offline PID Cart-Pole teaching lab with verified tests）。
+- 首次Pages部署：GitHub API status=built；build commit為上述應用commit；2026-10-13T07:59:03Z（臺灣15:59:03）完成，build error.message=null。
+- Pages來源：main分支根目錄，legacy branch build。之後對該來源的push會自動重建發布。
+- 公開根網址：<https://holeinlove.github.io/PID-control/>。
+- 具名HTML網址：<https://holeinlove.github.io/PID-control/PID%20control%20Cart-Pole.html>。
+- A22實測時間：2026-10-13T16:01:34.025+08:00；Chrome 155.0.8059.40。根網址1280px、具名網址320px均通過實際操作與無水平溢出檢查。
+- 兩份線上HTML各38,599 bytes，SHA-256均為`251b5596c2ec9cc678de38a12d476fa78572314d301c24148c22eaef42fdf52c`，與已驗收本機主檔相同。上傳與發布沒有修改物理、控制模型或介面程式。
+- 兩頁首次開啟均為PID=0、V=3、下垂待機；一鍵平衡實際起擺，在約5.35模擬秒觀察到穩定；重置全零待機；V=1的方向干擾造成真實速度與偏移變化。
+- 兩頁應用JavaScript pageerror均0。根頁瀏覽器額外請求`https://holeinlove.github.io/favicon.ico`回404（已記錄實際資源URL）；這是瀏覽器預設網站圖示，應用不依賴它，不屬模擬／教學資源失敗。沒有把這條訊息偽記成不存在。
+- 線上驗收結構化資料已補入原核准檔案`evidence/browser-tests.json`的`onlineAcceptance`。
+- 真實線上截圖`evidence/online-root.png`與`evidence/online-named-320.png`保存於本機最終交付ZIP；為維持原核准36檔範圍，未新增這兩個遠端路徑。
+- 本次後續提交僅補齊核准／部署／線上驗收紀錄與相應雜湊，HTML內容不變；文件提交的實際commit見Git歷史與最終交付訊息。
 
-## 八、目前尚未完成事項
+## 八、交付狀態與測試範圍
 
-1. 使用者核准已取得；GitHub官方登入完成，帳號holeinlove具push/admin權限。
-2. 核准範圍內上傳main、啟用Pages與等待實際部署結果。
-3. A22兩網址線上操作驗收、遠端雜湊比對、commit／核准時間／部署結果紀錄。
+指定工作已完成：36檔上傳、Pages公開發布、A01～A24驗收及真實紀錄。沒有尚待核准的既定發布步驟。
 
-其他瀏覽器與實體手機未做相容性測試；本次驗收範圍為上述Chrome與320px觸控模擬，不將其宣稱為所有裝置通過。
-
-
-### 發布執行進度
-
-- 2026-10-13T15:56:58.314+08:00：重新唯讀確認遠端main仍無提交、Pages未啟用；35個內容檔（另加manifest共36檔）均與核准前雜湊一致。準備首次提交；HTML內容未變更。
+本次測試範圍為Windows Chrome與320px觸控模擬；其他瀏覽器、實體手機未做相容性測試，不宣稱所有裝置通過。

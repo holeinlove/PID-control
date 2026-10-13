@@ -23,4 +23,4 @@ python tests/make-evidence.py
 - 首輪錯誤測試保留於 `evidence/browser-tests-initial.json`；修正測試方式後的最終結果為 `evidence/browser-tests.json`，背景實測另見 visibility-tests.json。
 - 執行 browser.cjs 會在 evidence/disturbance-frames 產生逐幀 PNG；上傳清單採 GIF 與量測 JSON，逐幀 PNG 留於本機。
 
-尚未執行遠端操作。線上 A22 須在使用者明確核准後執行。
+使用者已於2026-10-13明確核准發布，A22線上驗收已完成。結果見 evidence/browser-tests.json 的 onlineAcceptance 與 ITERATION-AND-ACCEPTANCE.md。package-review.py 為核准前封裝腳本的歷史版本；最終發布交付包另名為 PID-control-published.zip。
