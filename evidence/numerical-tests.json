@@ -476,7 +476,7 @@
       "name": "standalone source and bit-identical entry",
       "status": "PASS",
       "result": {
-        "bytes": 38599,
+        "bytes": 39776,
         "externalResources": 0
       }
     }
