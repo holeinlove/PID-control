@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13T08:46:46.011Z",
+  "browser": "155.0.8059.40",
+  "method": "Separate directories, file:// URLs, browser offline. Not a second physical computer.",
+  "results": [
+    {
+      "file": "PID control Cart-Pole.html",
+      "status": "PASS",
+      "isolatedFile": true,
+      "offline": true,
+      "interactive": true
+    },
+    {
+      "file": "index.html",
+      "status": "PASS",
+      "isolatedFile": true,
+      "offline": true,
+      "interactive": true
+    },
+    {
+      "file": "PID-control-conversation.html",
+      "status": "PASS",
+      "isolatedFile": true,
+      "offline": true,
+      "interactive": true
+    }
+  ],
+  "errors": [],
+  "network": []
+}

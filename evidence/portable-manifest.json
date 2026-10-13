@@ -1,0 +1,15 @@
+{
+  "version": "1.2",
+  "authorization": "User explicitly requested HTML remediation, GitHub update and specification update.",
+  "files": {
+    "PID control Cart-Pole.html": "a575190d75a9bd7adafccc63bb8d593520509b48122dfacb3466b3a513837706",
+    "index.html": "a575190d75a9bd7adafccc63bb8d593520509b48122dfacb3466b3a513837706",
+    "PID-control-conversation.html": "4def12794aead1c361b3b9536d08544c21a82d35d8e8a70c7805b12508916f38",
+    "PID-control-Cart-Pole-spec.md": "4b9769c09bf2547e4ad84c22aeb6716808b11c9470f98d09c5ae47ec913ff88f",
+    "ITERATION-AND-ACCEPTANCE.md": "412d37430a173f21277bfbed0657a5cbc86945b409f29133fa044d27ca6d3175",
+    "ui-reference.svg": "3bff5765cef5b57d7fd2f5117edd143542ade1bc7562f4309e12907e950a10b5",
+    "PORTABLE-README.md": "b8125dd41048241334e2b42b6b8ea8a95b3f039a069265050bdcaebe19d83ea6",
+    "downloads.html": "0f3966ac11a299fb28d01b8382c362e9b2187e6dc00329dae00f341d7caf85f4",
+    "PID-control-portable.zip": "d0ca4a0799dd20e728c899031c9cd44c2bf1fb8ba6dfa3271d8ece77851b3c6e"
+  }
+}

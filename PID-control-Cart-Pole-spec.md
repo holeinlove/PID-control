@@ -1,6 +1,6 @@
 # PID control Cart-Pole — 實作規格書
 
-版本：1.1｜日期：2026-10-13｜介面語言：繁體中文
+版本：1.2｜日期：2026-10-13｜介面語言：繁體中文
 
 本規格依使用者已確認的互動原型整理，供其他開發者或 AI 在沒有對話紀錄的情況下重建作品。文中的「必須」為驗收要求；參考圖是版面指引，不是可取代功能的截圖。
 
@@ -330,3 +330,41 @@ t = t + dt
 將使用者核准的時間、上傳／發布範圍、實際 commit、部署結果與公開網址寫入 `ITERATION-AND-ACCEPTANCE.md`。沒有核准或部署失敗時，如實標示待核准／失敗，不得宣稱上傳成功。
 
 **指定 GitHub 連結：[https://github.com/holeinlove/PID-control.git](https://github.com/holeinlove/PID-control.git)**
+
+
+## 15. 可攜式 HTML、跨電腦使用與公開交付（v1.2 必要要求）
+
+本節依使用者最新修正加入，適用應用、對話紀錄及交付連結。使用者本次已明確要求「幫我重做，並且更新github」及「你的規格書也要進行更改」，本次對應更新已獲授權；第 14 節仍適用未來尚未授權的其他發布。
+
+### 15.1 檔案本身必須可攜
+
+- 正式主檔為 `PID control Cart-Pole.html`，具備完整 doctype、html、head、UTF-8、viewport、body。不得把對話內 HTML 片段當成獨立成品。
+- `index.html` 與主檔逐位元相同；包含全部 CSS、JavaScript、字體替代方案與插圖。不能使用 C:/、其他使用者家目錄、UNC、localhost、原電腦伺服器或 Codex 橋接 API 作為執行依賴。
+- 複製單一 HTML 到任意新目錄後，使用一般瀏覽器 file:// 開啟即可使用。無須安裝任何開發套件、登入或連線。
+- 對話 HTML 同樣必須獨立：附件圖與附錄內嵌；文件跳轉使用頁內錨點；不可要求存在原始圖片、Markdown 或本機路徑。歷史訊息與最新附錄須清楚區分，不將新版應用偽稱早期版本。
+- 可以提供明確標示的線上資源連結，但這些連結不得成為模擬、圖文、搜尋、列印或檔案閱讀的必要條件。
+
+### 15.2 交付不能只給本機路徑
+
+必須交付公開 HTTPS 入口與可下載檔案，不能僅提供 C:/ 或本機檔案連結並稱為別人可用的網址。
+
+- 應用入口：https://holeinlove.github.io/PID-control/
+- 下載中心：https://holeinlove.github.io/PID-control/downloads.html
+- 對話閱讀：https://holeinlove.github.io/PID-control/PID-control-conversation.html
+- ZIP：https://holeinlove.github.io/PID-control/PID-control-portable.zip
+
+以上網址上傳後須實際驗證，驗證前不宣稱已成功。下載中心提供具名 HTML、對話 HTML、規格 Markdown 及離線 ZIP。應用與對話頁各提供內建「下載 HTML」按鈕，讓使用者可以取得真正的完整檔案。
+
+ZIP 至少包含兩份同內容應用 HTML、獨立對話 HTML、最新版規格、示意圖、迭代紀錄與離線使用說明；不包含憑證、個人環境設定或僅本機有效的捷徑。
+
+### 15.3 新增驗收
+
+| ID | 操作 | 預期结果 |
+|---|---|---|
+| A25 | 將主檔、index、對話 HTML 個別複製到原輸出目錄以外的新資料夾，禁網以 file:// 開啟 | 每一檔單獨可用；無本機資源遺失、對话橋接依賴或 JavaScript 錯誤 |
+| A26 | 主檔按一鍵平衡、重置、重新開始；對話頁搜尋與載入附錄 | 真正可操作，內嵌圖片完成解碼；不是只有頁面外殼 |
+| A27 | 使用頁內下載按鈕，再打開實際下載的檔案 | 名稱正確、完整 UTF-8 HTML、離線可操作 |
+| A28 | 點 ZIP 下載並解壓到新目錄 | 檔案齊全，主檔與 index 雜湊相同，HTML 無需同層資源即可使用 |
+| A29 | GitHub Pages 上實測公開入口、對話、下載中心與 ZIP | 回應成功，內容與提交一致；給其他使用者的是公開網址而非本機路徑 |
+
+測試應記錄瀏覽器版本、是否禁網、來源 file:// 或 HTTPS、錯誤與結果。以隔離目錄模擬跨電腦移轉，不得將同一電腦測試誇稱已在實體第二台電腦測試。

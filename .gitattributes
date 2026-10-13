@@ -1,0 +1,6 @@
+# Keep standalone exports byte-identical across Windows and GitHub Pages.
+*.html -text
+*.md -text
+*.json -text
+*.svg -text
+*.zip -text
